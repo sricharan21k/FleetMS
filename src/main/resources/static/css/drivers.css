@@ -1,0 +1,9 @@
+.custom-row{
+    transition: transform 0.2s ease-in-out;
+}
+.custom-row:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    cursor: pointer;
+}
